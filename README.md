@@ -2,6 +2,10 @@
 
 Study and practice site for **Claude Certified Associate – Foundations (CCAO-F)**. It's a static site with no server, database or login, hosted on GitHub Pages.
 
+## 👉 Use it now: https://kenharris0.github.io/CCAO-F-certification-prep/
+
+You don't need to sign up or install anything. Just open the link and start studying.
+
 ## Run locally
 Open `public/index.html` in a browser, or run `npm start` to serve `public/` at http://localhost:3000.
 
