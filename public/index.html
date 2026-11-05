@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CCAO-F Prep</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">✳</span> CCAO-F Prep</div>
+    <nav>
+      <button data-view="home" class="active">Overview</button>
+      <button data-view="learn">Learn</button>
+      <button data-view="quiz">Quiz</button>
+    </nav>
+  </header>
+
+  <main id="app"><p class="muted">Loading…</p></main>
+
+  <footer class="foot">
+    The practice questions are original and modeled on the public exam blueprint. They are not official Anthropic exam items. Check the exam details against Anthropic's official exam guide.
+  </footer>
+  <script>var module = {};</script>
+  <script src="data/lessons.js"></script>
+  <script>window.LESSONS = module.exports;</script>
+  <script src="data/questions.js"></script>
+  <script>window.QUESTIONS = module.exports;</script>
+  <script src="app.js"></script>
+</body>
+</html>

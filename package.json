@@ -1,0 +1,9 @@
+{
+  "name": "ccaof-prep",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Static study + practice quiz site for Claude Certified Associate - Foundations (CCAO-F)",
+  "scripts": {
+    "start": "npx --yes serve public"
+  }
+}
